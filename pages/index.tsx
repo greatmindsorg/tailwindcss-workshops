@@ -13,7 +13,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Tailwind CSS Workshops</h1>
+        <h1 className="text-3xl underline pb-5">
+          Welcome to Tailwind CSS Workshops
+        </h1>
 
         <section>
           <Image
@@ -21,16 +23,20 @@ const Home: NextPage = () => {
             alt=""
             width={400}
             height={400}
+            className="ease-in-out"
           />
         </section>
 
-        <div className={styles.grid}>
+        <div className="flex items-center justify-center flex-wrap md:max-w-[800px] lg:max-w-full">
           <a
             href="https://tailwindcss.com/docs/installation"
             className={styles.card}
           >
             <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about TailwindCSS features and API.</p>
+            <p className="text-ellipsis overflow-hidden">
+              Find in-depth information about TailwindCSS features and API.
+              Lorems hfjdhfjsdhfjidshfkjhdsfjhdsfhdsifuhdsiufhdsufh
+            </p>
           </a>
 
           <a
