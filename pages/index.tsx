@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -54,6 +55,10 @@ const Home: NextPage = () => {
             <h2>Examples &rarr;</h2>
             <p>Discover some components already using TailwindCSS.</p>
           </a>
+
+          <Link href="/examples/twin-macro/badge">
+            Twin Macro Examples
+          </Link>
 
           <a
             href="https://greatminds.atlassian.net/wiki/spaces/DP/pages/2558558290/TailwindCSS+Workshops"
