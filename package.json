@@ -25,6 +25,8 @@
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4",
     "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
     "tailwindcss": "^3.1.8",
     "twin": "0.0.1",
     "twin.macro": "^2.8.2",
